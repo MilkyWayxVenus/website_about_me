@@ -1,0 +1,48 @@
+
+html{
+    min-width: 500px;
+}
+
+#profile{
+    border-radius: 50%;
+    border: 2px solid black
+}
+
+p{
+    color: black;
+    text-align: start;
+    padding:10px;
+    margin-bottom:10px;
+    font-size: 2vw;
+}
+
+h2{
+    margin:0;
+    padding: 0;
+}
+
+*{
+    font-family: 'Libre Baskerville', serif;
+}
+
+.school{
+    padding: 30px;
+}
+
+.table{
+    font-size: 11px;
+}
+
+#graduation-girl{
+    float: right;
+}
+
+#table-school{
+    max-width: max-content;
+}
+
+@media (max-width: 960px) {
+    p{
+        font-size: 18px;
+    }
+}
